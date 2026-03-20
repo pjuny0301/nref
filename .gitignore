@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake / build
+build/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# binaries / objects
+*.exe
+*.out
+*.app
+*.obj
+*.o
+*.lo
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.ipch
+
+# test / coverage
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+coverage/
+
+# temporary
+*.log
+*.tmp
+*.cache
